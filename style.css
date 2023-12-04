@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #555;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 1em;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+section:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+    
+  .fa-facebook {
+    background: #444;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #444;
+    color: white;
+  }
+
+  .fa-github {
+    background: #444;
+    color: white;
+  }
+  .fa-email {
+    background: #444;
+    color: white;
+  }
+
+#about, p{
+    text-align: left;
+}
+#about, h2{
+    text-align: center;
+}
+#me{
+    width: 200px;
+    background-image: url("pics/IMG_2741.JPEG");
+}
+#about{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#portfolio{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
